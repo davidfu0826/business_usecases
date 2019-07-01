@@ -51,3 +51,30 @@ The model used is from this [research paper](https://github.com/oarriaga/face_cl
 * Neural network scaffolding powered by Keras with Tensorflow.
 * Convolutional Neural Network (CNN) deep learning architecture is from this [research paper](https://github.com/oarriaga/face_classification/blob/master/report.pdf).
 * Pretrained Keras model and much of the OpenCV code provided by GitHub user [oarriaga](https://github.com/oarriaga).
+
+# På svenska
+För att använda denna repository behövs följande python moduler
+-	tensorflow
+-	numpy
+-	scipy
+-	opencv-python
+-	pillow
+-	pandas
+-	matplotlib
+-	h5py
+-	keras
+
+Dessa kan installeras med pip genom att man i konsolen skriver
+`pip3 install tensorflow numpy scipy	opencv-python	pillow pandas matplotlib h5py keras`
+
+För att köra programmet så exekverar man filen `emotions.py` i mappen `Emotions`. Börja med att navigera till mappen `Emotions` och sedan exekvera följande
+`python3 emotions.py`
+
+# Träning på nytt
+- För att hämta träningsdata för modellen så finns det i filen fer2013.tar.gz från [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+- Flytta den nedladdade filen till mappen `Emotions`.
+- Kör
+`tar -xzf fer2013.tar`
+- Ladda ned train_emotion_classifier.py från [here](https://github.com/oarriaga/face_classification/blob/master/src/train_emotion_classifier.py)
+- Kör filen train_emotion_classification.py :
+`python3 train_emotion_classifier.py`
