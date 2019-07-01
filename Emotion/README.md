@@ -71,10 +71,12 @@ För att köra programmet så exekverar man filen `emotions.py` i mappen `Emotio
 `python3 emotions.py`
 
 # Träning på nytt
-- För att hämta träningsdata för modellen så finns det i filen fer2013.tar.gz från [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+- För att hämta träningsdata för modellen så finns det i filen fer2013.tar.gz från [här](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 - Flytta den nedladdade filen till mappen `Emotions`.
 - Kör
 `tar -xzf fer2013.tar`
-- Ladda ned train_emotion_classifier.py från [here](https://github.com/oarriaga/face_classification/blob/master/src/train_emotion_classifier.py)
+- Ladda ned train_emotion_classifier.py från [här](https://github.com/oarriaga/face_classification/blob/master/src/train_emotion_classifier.py)
 - Kör filen train_emotion_classification.py :
 `python3 train_emotion_classifier.py`
+
+Se denna [länk](https://github.com/petercunha/Emotion) för den ursprungliga koden.
